@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gameRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66e0ff">
+
+    <Button
+        android:id="@+id/lilly_pad_1"
+        android:layout_width="132dp"
+        android:layout_height="117dp"
+        android:layout_alignStart="@+id/lilly_pad_4"
+        android:layout_alignTop="@+id/lilly_pad_2"
+        android:background="@drawable/water_lilly"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/lilly_pad_2"
+        android:layout_width="135dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/water_lilly"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/lilly_pad_3"
+        android:layout_width="135dp"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/lilly_pad_2"
+        android:layout_marginBottom="179dp"
+        android:background="@drawable/water_lilly"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/lilly_pad_4"
+        android:layout_width="134dp"
+        android:layout_height="119dp"
+        android:layout_alignBottom="@+id/lilly_pad_3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="27dp"
+        android:background="@drawable/water_lilly"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="214dp"
+        android:background="#1a75ff"
+        android:text="+"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:layout_alignEnd="@+id/lilly_pad_2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222dp"
+        android:background="#1a75ff"
+        android:text="-"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/lilly_pad_1"
+        android:layout_centerHorizontal="true"
+        android:background="#1a75ff"
+        android:text="*"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:layout_alignBaseline="@+id/lilly_pad_3"
+        android:layout_centerHorizontal="true"
+        android:background="#1a75ff"
+        android:text="/"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/equationText"
+        android:layout_width="234dp"
+        android:layout_height="44dp"
+        android:layout_alignEnd="@+id/youWinText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="99dp"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/youWinText"
+        android:layout_width="230dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="42dp"
+        android:layout_marginStart="45dp"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="75dp"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="25dp"
+        android:background="@android:color/transparent"
+        android:text="Reset"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/center_lilly"
+        android:layout_width="104dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/water_lilly"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/frog"
+        android:layout_width="89dp"
+        android:layout_height="81dp"
+        android:layout_alignBottom="@+id/plus"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/jumping_frog" />
+
+
+</RelativeLayout>

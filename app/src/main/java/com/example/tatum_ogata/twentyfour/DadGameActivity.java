@@ -2,9 +2,9 @@ package com.example.tatum_ogata.twentyfour;
 
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class GameActivity extends AppCompatActivity {
+public class DadGameActivity extends AppCompatActivity {
 
     //xml widgets
     RelativeLayout relativeLayout;
@@ -46,7 +46,7 @@ public class GameActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_relative);
+        setContentView(R.layout.activity_dad_game);
 
         preOperation = "";
         total = 0;
